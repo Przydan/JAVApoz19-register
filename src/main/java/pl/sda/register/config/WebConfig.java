@@ -12,6 +12,8 @@ import org.springframework.web.servlet.view.JstlView;
 @ComponentScan("pl.sda.register.controller")
 public class WebConfig {
 
+    // nazwy logicznej i widoku
+
     @Bean
     public InternalResourceViewResolver viewResolver() {
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
